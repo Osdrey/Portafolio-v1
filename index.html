@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Osdrey</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans+Condensed:ital,wght@1,300;1,500&family=Fjalla+One&family=Francois+One&family=Jost:ital@1&family=Oswald:wght@300&family=Volkhov&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Index/styles/welcome.css">
+    <link rel="stylesheet" href="Index/styles/fonts.css">
+    <link rel="stylesheet" href="Index/styles/body.css">
+    <link rel="stylesheet" href="Index/styles/navbar.css">
+</head>
+
+    <body style="display: flex; flex-direction: column; align-items: center;">
+        <header>
+            <div class="header-osdrey" id="header-osdrey">
+                <h1><a href="index.html">Osdrey</a></h1>
+            </div>
+            <div class="header-links">
+                <!-- Menu superior -->
+                <div class="projects-link">
+                    <h3><a id="projects-link" href="Projects/projects.html"></a></h3>
+                </div>
+                <h3><a id="about-link" href="#contact-section"></a></h3>
+                <h3><a id="contact-link" href="#contact-section"></a></h3>
+                <h3 id="language-link" class="language-link" href="#">
+                    <!-- Menú de idioma -->
+                    <div class="language-content">
+                        <a onclick="changeLanguage('es')" id="Spanish"></a>
+                        <a onclick="changeLanguage('en')" id="English"></a>
+                    </div>
+                </h3>
+            </div>
+        </header>
+        <div class= "welcome-section" id="welcome-section">
+            <div class= "welcome-section-text">
+                <!-- Texto en inglés -->
+                <h1 id="welcome"></h1>
+                <h4 id="welcome-text"></h4>
+            </div>
+            <div class="welcome-section-image">
+                <img src="Index/Images/Developer.png" alt="laptop">
+            </div>
+        </div>
+        <script src="Index/scripts/welcome.js"></script>
+    </body>
+</html>
